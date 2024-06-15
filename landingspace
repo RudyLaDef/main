@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudy La Défonce - Spécialiste des Sex Toys</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+
+        header h1 {
+            float: left;
+            margin: 0;
+            padding: 0 20px;
+            font-size: 24px;
+        }
+
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 5px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 20px;
+        }
+
+        nav ul li a:hover {
+            background: #77aaff;
+            color: #333;
+        }
+
+        #hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 500px;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 24px;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        #about, #products, #contact {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            margin: 1.5%;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #77aaff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        form button:hover {
+            background: #333;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Rudy La Défonce</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#products">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Explorez un nouveau monde de plaisir</h2>
+            <p>Découvrez notre gamme de sex toys de haute qualité.</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>À propos de nous</h2>
+        <p>Chez Rudy La Défonce, nous croyons que chaque personne mérite de vivre une vie sexuelle épanouie. Nous proposons une large gamme de sex toys innovants et de haute qualité pour répondre à tous les désirs et toutes les préférences. Notre mission est de briser les tabous et de promouvoir une sexualité positive et inclusive.</p>
+    </section>
+
+    <section id="products" class="container">
+        <h2>Nos Produits</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Produit 1">
+            <h3>LE RUDYXIS</h3>
+            <p>Au plafond, tu collera on bouchon 1.</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Produit 2">
+            <h3>LE RUDYPHY</h3>
+            <p>Au sol, tu colleras to calcon</p>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Produit 9">
+            <h3>LE RUDYRY</h3>
+            <p>Au grenier, je t en...</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter via le formulaire ci-dessous.</p>
+        <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rudy La Défonce. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
